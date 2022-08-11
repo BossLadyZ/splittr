@@ -1,0 +1,176 @@
+* {
+	font-family: "Space Mono", monospace;
+}
+
+.container {
+	display: grid;
+	width: 900px;
+	background-color: hsl(0, 0%, 100%);
+	height: 60vh;
+	grid-template-columns: repeat(2, 1fr);
+	border-radius: 20px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.right {
+	height: 90%;
+	width: 90%;
+	background-color: hsl(183, 100%, 15%);
+	border-radius: 20px;
+
+	display: grid;
+	grid-template-rows: 70% 30%;
+	/* align-items: center; */
+}
+.top {
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	/* align-items: end; */
+	width: 300px;
+}
+.t-amount {
+	display: grid;
+	grid-template-columns: 40% 60%;
+	justify-content: center;
+	width: 100%;
+	margin-top: 30px;
+}
+
+.amount-text,
+.amount {
+	width: 100%;
+}
+
+.amount p {
+	font-size: 35px;
+	color: hsl(172, 67%, 45%);
+	text-align: right;
+}
+
+p {
+	color: hsl(185, 41%, 84%);
+}
+
+span {
+	display: block;
+	font-size: 14px;
+	color: hsl(184, 14%, 56%);
+}
+
+.reset-button {
+	width: 300px;
+}
+
+.reset-button button {
+	background-color: hsl(185, 41%, 84%);
+	color: hsl(183, 100%, 15%);
+	font-size: 18px;
+	border-radius: 7px;
+	width: 100%;
+	/* margin: 0px; */
+	padding: 8px;
+	border: none;
+}
+
+i {
+	color: hsl(184, 14%, 56%);
+	position: absolute;
+}
+
+.icon {
+	padding: 10px;
+	min-width: 40px;
+}
+
+label {
+	display: block;
+	color: hsl(186, 14%, 43%);
+}
+
+input {
+	text-align: right;
+	font-size: 24px;
+}
+
+.left {
+	width: 90%;
+	height: 90%;
+	display: grid;
+	grid-template-rows: 1fr, 2fr, 1fr;
+}
+
+.bill,
+.select-tip {
+	width: 100%;
+}
+
+.bill input {
+	width: 90%;
+	background-color: hsl(185, 41%, 84%);
+	border: solid 3px hsl(172, 67%, 45%);
+	padding: 5px;
+	border-radius: 7px;
+}
+
+.buttons {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	/* grid-gap: 7px; */
+	/* padding: 10px; */
+	width: 100%;
+}
+
+.buttons button {
+	margin: 5px;
+	padding: 10px;
+	background-color: hsl(183, 100%, 15%);
+	color: hsl(0, 0%, 100%);
+	border: none;
+	border-radius: 7px;
+	width: 100px;
+	font-size: 18px;
+}
+
+.buttons button:hover {
+	background-color: hsl(172, 67%, 45%);
+	color: hsl(183, 100%, 15%);
+}
+
+.buttons input {
+	width: 100px;
+	background-color: hsl(185, 41%, 84%);
+	border: solid 3px hsl(172, 67%, 45%);
+	padding: 5px;
+	margin: 5px;
+	border-radius: 7px;
+}
+
+.people {
+	width: 100%;
+}
+
+.people input {
+	width: 90%;
+	background-color: hsl(185, 41%, 84%);
+	border: solid 3px hsl(172, 67%, 45%);
+	padding: 5px;
+	border-radius: 7px;
+}
+
+/* @media (max-width: 400px) {
+	.container {
+		display: flex;
+		border-radius: 20px;
+		box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	}
+} */
+/* - Strong cyan: hsl(172, 67%, 45%)
+
+### Neutral
+
+- Very dark cyan: hsl(183, 100%, 15%)
+- Dark grayish cyan: hsl(186, 14%, 43%)
+- Grayish cyan: hsl(184, 14%, 56%)
+- Light grayish cyan: hsl(185, 41%, 84%)
+- Very light grayish cyan: hsl(189, 41%, 97%)
+- White: hsl(0, 0%, 100%) */

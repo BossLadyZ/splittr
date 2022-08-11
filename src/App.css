@@ -1,20 +1,17 @@
+
+
+
 .App {
-  text-align: center;
-}
-
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  background-color: hsl(185deg, 41%, 84%);
+  display: grid;
+  align-content: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+header{
+  color: hsl(183, 100%, 15%);
+  font-weight: bold;
+  margin-bottom: 12px;
 }
-
